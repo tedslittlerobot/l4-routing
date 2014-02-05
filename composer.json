@@ -12,8 +12,8 @@
         "illuminate/support": "4.1.*"
     },
     "autoload": {
-        "psr-0": {
-            "Tlr\\L4Routes": "src/"
+        "psr-4": {
+            "Tlr\\Routes\\": "src/"
         }
     },
     "minimum-stability": "stable"
