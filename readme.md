@@ -41,3 +41,7 @@ Event::listen('routes.admin', function( $routes )
 This provides an easy way for someone to make routes for an admin panel, in a modular way, without having to duplicate the filtering and routing logic.
 
 ( NB - the code in the example does not provide a very useful debug console ;) )
+
+### Registrars
+
+@todo: add registrar class
