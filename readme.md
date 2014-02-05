@@ -3,6 +3,8 @@ L4 Routes
 
 > A collection of experiments of different ways to structure routing in Laravel 4.
 
+* * * * *
+
 ### Events
 
 To use events for routing, add `Tlr\Routes\EventServiceProvider` to your `providers` array in `config/app.php`.
@@ -41,6 +43,8 @@ Event::listen('routes.admin', function( $routes )
 This provides an easy way for someone to make routes for an admin panel, in a modular way, without having to duplicate the filtering and routing logic.
 
 ( NB - the code in the example does not provide a very useful debug console ;) )
+
+* * * * *
 
 ### Registrars
 
