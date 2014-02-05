@@ -2,7 +2,7 @@
 
 use Illuminate\Support\ServiceProvider;
 
-class RoutesServiceProvider extends ServiceProvider {
+class EventServiceProvider extends ServiceProvider {
 
 	/**
 	 * Indicates if loading of the provider is deferred.
