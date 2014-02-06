@@ -1,4 +1,4 @@
-<?php namespace Tlr\Routes;
+<?php namespace Tlr\Routing;
 
 use Illuminate\Support\ServiceProvider;
 

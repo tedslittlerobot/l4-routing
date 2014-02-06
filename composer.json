@@ -1,5 +1,5 @@
 {
-    "name": "tlr/l4-routes",
+    "name": "tlr/l4-routing",
     "description": "",
     "authors": [
         {
@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Tlr\\Routes\\": "src/"
+            "Tlr\\Routing\\": "src/"
         }
     },
     "minimum-stability": "stable"

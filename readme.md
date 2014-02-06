@@ -1,5 +1,5 @@
-L4 Routes
-=========
+L4 Routing
+==========
 
 > A collection of experiments of different ways to structure routing in Laravel 4.
 
