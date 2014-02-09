@@ -22,8 +22,8 @@ class EventServiceProvider extends ServiceProvider {
 			$this->app['events']->fire('routes.start', array( $this->app['router'] ));
 		};
 
-		$events->listen('artisan.start', $startRouter);
-		$events->listen('router.before', $startRouter);
+		$this->app['events']->listen('artisan.start', $startRouter);
+		$this->app['events']->listen('router.before', $startRouter);
 	}
 
 	/**
