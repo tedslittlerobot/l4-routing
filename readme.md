@@ -5,7 +5,7 @@ L4 Routing
 
 ### Events
 
-To use events for routing, add `Tlr\Routes\EventServiceProvider` to your `providers` array in `config/app.php`.
+To use events for routing, add `Tlr\Routing\EventServiceProvider` to your `providers` array in `config/app.php`.
 
 Then you can define routes in event blocks, like so:
 
