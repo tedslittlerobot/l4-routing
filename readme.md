@@ -3,6 +3,8 @@ L4 Routing
 
 > A collection of experiments of different ways to structure routing in Laravel 4.
 
+## [DO NOT USE] - moved to l4/support
+
 ### Events
 
 To use events for routing, add `Tlr\Routing\EventServiceProvider` to your `providers` array in `config/app.php`.
